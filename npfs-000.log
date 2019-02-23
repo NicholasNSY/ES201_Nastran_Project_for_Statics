@@ -1,0 +1,103 @@
+NX Nastran V11.0 (Intel64 Family 6 Model 60 Stepping 3 Windows 8  ) Control File:
+-------------------------------------------------------------------
+Nastran BUFFSIZE=32769 $(c:/femapv~1/nastran/conf/nast11.rcf[5])
+Nastran BUFFPOOL=20.0X $(c:/femapv~1/nastran/conf/nast11.rcf[8])
+Nastran DIAGA=128 DIAGB=0 $(c:/femapv~1/nastran/conf/nast11.rcf[12])
+Nastran REAL=2147483647 $(Memory limit for MPI and other specialized modules)
+JID='c:/users/omen/downloads/es 201/npfs/npfs-000.dat'
+OUT='c:/users/omen/downloads/es 201/npfs/npfs-000'
+MEM=1924005888
+MACH='Intel64 Family 6 Model 60 Stepping 3'
+OPER='Windows 8'
+OSV=' '
+MODEL='Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz (OMEN)'
+CONFIG=8666
+NPROC=8
+symbol=DELDIR='c:/femapv~1/nastran/nxn11/nast/del' $(program default)
+symbol=DEMODIR='c:/femapv~1/nastran/nxn11/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/femapv~1/nastran/nxn11/nast/misc/sssalter' $(program default)
+symbol=TPLDIR='c:/femapv~1/nastran/nxn11/nast/tpl' $(program default)
+SDIR='c:/scratch/npfs-000.T1328_45'
+DBS='c:/scratch/npfs-000.T1328_45'
+SCR=yes
+SMEM=20.0X
+NEWDEL='c:/femapv~1/nastran/nxn11/em64tnt/SSS'
+DEL='NXNDEF'
+AUTH='28000@LocalHost'
+AUTHQUE=0
+MSGCAT='c:/femapv~1/nastran/nxn11/em64tnt/analysis.msg'
+MSGDEST='f06'
+PROG=FEMAP
+NEWS='c:/femapv~1/nastran/nxn11/nast/news.txt'
+UMATLIB=''
+-------------------------------------------------------------------
+NXN_ISHELLPATH=C:\FEMAPV~1\nastran\bin
+NXN_JIDPATH=
+PATH=c:/femapv~1/nastran/nxn11/em64tnt;c:/femapv~1/nastran/nxn11/em64tnt/sysnoise;c:/femapv~1/nastran/nxn11/em64tnt/sml;c:/femapv~1/nastran/nxn11/em64tnt/impi/bin;c:/femapv~1/nastran/nxn11/em64tnt/monitor;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Microsoft HPC Pack 2008 R2\Bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Process Lasso;C:\Program Files (x86)\Calibre2\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Users\OMEN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+Command Line: C:\Users\OMEN\Downloads\ES 201\NPFS\NPFS-000.dat bat=no out=C:\Users\OMEN\Downloads\ES 201\NPFS\ scr=yes
+Current Dir: C:\Users\OMEN\Downloads\ES 201\NPFS
+Executable:  c:/femapv~1/nastran/nxn11/em64tnt/analysis.exe
+NXN_MSG:     stderr
+FPE:         no
+-------------------------------------------------------------------
+Current resource limits:
+ Physical memory:                    16310 MB
+ Physical memory available:           8491 MB
+ Paging file size:                   19310 MB
+ Paging file size available:         11090 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134217701 MB
+-------------------------------------------------------------------
+System configuration:
+ Hostname:         OMEN
+ Architecture:     em64tnt
+ Platform:         Intel64 Family 6 Model 60 Stepping 3 Windows 8  
+ Model:            Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz
+ Clock freq.:      2494 MHz
+ Number of CPUs:   8
+ Executable:       standard
+ Raw model ID:     8666
+ Config number:    8666
+ Physical memory:  16310 MB
+ Virtual memory:   19310 MB
+ Numeric format:   32-bit little-endian IEEE.
+ Bytes per word:   4
+ Disk block size:  512 bytes (128 words)
+ Remote shell cmd: "c:/femapv~1/nastran/nxn11/em64tnt/edsrmtcmd.exe" (Windows, UNIX)
+-------------------------------------------------------------------
+NX Nastran started  Tue Jun 13 01:31:45 EDT 2017
+ 01:31:45  Beginning Analysis
+
+ 01:31:46  NX NASTRAN Authorization Information - System Attributes
+ 01:31:46  --------------------------------------------------------
+ 01:31:46  Model: Intel(R) Core(TM) i7-4710HQ CPU
+ 01:31:46  Machine: Intel64 Family 6 Model 60 Steppi
+ 01:31:46  OS: Windows 8
+ 01:31:46  Version:
+ 01:31:46  License File(s): 28000@LocalHost
+
+ 01:31:46  The FEMAP dll Search String is c:\femapv~1\auth_*.dll .
+ 01:31:46  Found the FEMAP authorization dll auth_113.dll
+ 01:31:46  Loading FEMAP Authorization dll auth_113.dll
+
+ 01:31:46  NX NASTRAN Authorization Information - Checkout Successful
+ 01:31:46  ----------------------------------------------------------
+ 01:31:46  License for module NX Nastran Basic - FEMAP Desktop  checked out successfully
+
+ 01:31:47  Analysis started.
+ 01:31:47  Geometry access/verification to CAD part initiated (if needed).
+ 01:31:47  Geometry access/verification to CAD part successfully completed (if needed).
+ 01:31:47  Finite element model generation started.
+ 01:31:48  Finite element model generated 36 degrees of freedom.
+ 01:31:48  Finite element model generation successfully completed.
+ 01:31:48  Application of Loads and Boundary Conditions to the finite element model started.
+ 01:31:48  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 01:31:48  Solution of the system equations for linear statics started.
+ 01:31:48  Solution of the system equations for linear statics successfully completed.
+ 01:31:48  Linear static analysis completed.
+ 01:31:48  NSEXIT: EXIT(0)
+ 01:31:48  Analysis complete  0
+Real:        3.203 seconds ( 0:00:03.203)
+User:        0.109 seconds ( 0:00:00.109)
+Sys:         0.250 seconds ( 0:00:00.250)
+NX Nastran finished Tue Jun 13 01:31:48 EDT 2017
