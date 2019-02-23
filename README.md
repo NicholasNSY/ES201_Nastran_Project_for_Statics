@@ -3,7 +3,7 @@
 ## :space_invader: ERAU ES201 :space_invader:
 
 
-**NACA Comaparison - NX Nastran**
+**Generic Truss Bridge - NX Nastran**
 - **__Status__**: :+1:
   - Analyze and check the answers obtained from the hand calculations by analyzing this truss in Nastran. 
   - Nastran uses an approximation technique called finite elements to solve problems. 
